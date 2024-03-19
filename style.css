@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: "Shippori Antique", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('DALLE3.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+  
+.login-container {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    color: #fff;
+    border-radius: 20px;
+    padding: 30px 40px;
+}
+
+.login-container h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.input-here {
+    position: relative;
+    margin: 20px auto; 
+    width: 100%; 
+    display: flex;
+    align-items: center; 
+}
+
+.input-here i {
+    position: absolute;
+    left: 10px; 
+    color: #fff; 
+    position: absolute;
+    left: 0px;
+    color: #fff;
+    background-color: rgba(255,255,255,.4);
+    width: 30px; 
+    height: 30px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 5px 0 0 5px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    border-radius: 5px; 
+    border: 2px solid rgba(255,255,255,.2); 
+    outline: none; 
+    background-color: transparent; 
+    color: #fff;
+    height: 30px;
+}
+
+
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    color: #fff; 
+    accent-color: #fff;
+}
+
+.remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+.login-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    background-color: #444444;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 15px;
+}
+
+.login-button:hover {
+    background-color: #5a5a5a; 
+}
+
+.register {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff; 
+    margin: 20px 0 15px;
+}
+
+.register a {
+    color: #fff; 
+    text-decoration: none;
+}
+
+.register a:hover{
+    text-decoration: underline;
+}
